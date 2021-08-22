@@ -1,0 +1,159 @@
+*{
+  margin: 0px;
+}
+
+input[type=text] {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+textarea {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+input[type=password] {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+input[type=email] {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+input[type=submit] {
+  background-color:  #0092D6;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+.block input[type=submit] {
+  background-color:  #eb0000;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+body {
+
+  font-family: Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+.darkmode{
+  font-family: Helvetica, sans-serif;
+   background-color: white;
+   color: black;
+ }
+ .darkmode input[type=text]{
+   font-family: Helvetica, sans-serif;
+    background-color: white;
+    border: 2px solid grey;
+    color: black;
+  }
+  .darkmode textarea {
+    background-color: white;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding: 10px 20px;
+  }
+a:link {
+  color: #0092D6;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #0092D6;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #0092D6;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #0092D6;
+  background-color: transparent;
+  text-decoration: underline;
+}
+input, select, textarea{
+    color: white;
+}
+.errorflag
+{
+  font-size: 20px;
+  color: red;
+}
+.header
+{
+  width: 100%;
+  height: 80px;
+  background-color:  #131313;
+
+}
+
+
+.posts{
+
+  border: 2px solid white;
+  width: 50%;
+  border-radius: 25px;
+  padding: 15px 25px;
+  word-wrap: break-word
+  margin-left: 20px;
+
+}
+.likebutton input[type=submit]{
+  padding: 2px 2px;
+  border: 1px solid white;
+
+}
+
+
+hr{
+  opacity: 0.2;
+}
+.yourpage{
+  float: right;
+  margin-right: 10px;
+}
+.title{
+
+  float: left;
+  margin-left: 10px;
+
+}
+.loginpage{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.profilename{
+  margin-left: 20px;
+
+}
+
+.margins{
+  margin-left: 20px;
+
+}
+.loggedinas{
+  color: white;
+
+}
